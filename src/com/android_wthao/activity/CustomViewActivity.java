@@ -1,7 +1,5 @@
 package com.android_wthao.activity;
 
-import com.example.android_wthao.R;
-
 import android.app.Activity;
 import android.os.Bundle;
 

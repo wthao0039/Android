@@ -7,8 +7,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-import com.example.android_wthao.R;
-
 public class MainActivity extends Activity implements OnClickListener{
 	private Button b1,b2,b3,b4,b5;
 

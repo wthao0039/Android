@@ -27,7 +27,7 @@ public class DrawView extends View{
 		//设置画笔的颜色
 		p.setColor(Color.RED);
 		//绘制一个小圆
-		canvas.drawCircle(currentX, currentX, 15, p);
+		canvas.drawCircle(currentX, currentY, 15, p);
 	}
 
 	@Override
