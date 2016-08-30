@@ -32,6 +32,7 @@ public class MainActivity extends Activity implements OnClickListener{
 		Intent intent;
 		switch (v.getId()) {
 		case R.id.button1:
+			//自定义控件
 			intent = new Intent(this,CustomViewActivity.class);
 			startActivity(intent);
 			break;
