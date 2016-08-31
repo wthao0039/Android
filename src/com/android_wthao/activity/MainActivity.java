@@ -43,6 +43,7 @@ public class MainActivity extends Activity implements OnClickListener{
 			intent = new Intent(this,SwitchButtonActivity.class);
 			startActivity(intent);
 			break;
+			
 		default:
 			break;
 		}
