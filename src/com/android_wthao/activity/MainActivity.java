@@ -22,12 +22,16 @@ public class MainActivity extends Activity implements OnClickListener{
 		b1 = (Button) findViewById(R.id.button1);
 		b2 = (Button) findViewById(R.id.button2);
 		b3 = (Button) findViewById(R.id.button3);
+		b4 = (Button) findViewById(R.id.button4);
+		b5 = (Button) findViewById(R.id.button5);
 	}
 
 	private void Listener(){
 		b1.setOnClickListener(this);
 		b2.setOnClickListener(this);
 		b3.setOnClickListener(this);
+		b4.setOnClickListener(this);
+		b5.setOnClickListener(this);
 	}
 
 	@Override
@@ -49,7 +53,14 @@ public class MainActivity extends Activity implements OnClickListener{
 			intent = new Intent(this,ListsActivity.class);
 			startActivity(intent);
 			break;
-			
+		case R.id.button4:
+			intent = new Intent(this,TostTestActivity.class);
+			startActivity(intent);
+			break;
+		case R.id.button5:
+			intent = new Intent(this,DialogTestActivity.class);
+			startActivity(intent);
+			break;
 		default:
 			break;
 		}

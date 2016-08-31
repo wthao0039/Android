@@ -28,6 +28,10 @@
         </activity>
         <activity android:name=".ListsActivity" >
         </activity>
+        <activity android:name=".TostTestActivity" >
+        </activity>
+        <activity android:name=".DialogTestActivity" >
+        </activity>
     </application>
 
 </manifest>

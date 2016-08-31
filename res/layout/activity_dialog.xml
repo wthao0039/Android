@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_diaNormal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="普通Dialog" />
+
+    <Button
+        android:id="@+id/btn_diaMulti"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="多按钮Dialog" />
+
+    <Button
+        android:id="@+id/btn_diaList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="列表Dialog" />
+
+    <Button
+        android:id="@+id/btn_diaSigChos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="单项选择Dialog" />
+
+    <Button
+        android:id="@+id/btn_diaMultiChos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="多项选择Dialog" />
+
+    <Button
+        android:id="@+id/btn_diaReadProcess"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="进度条Dialog" />
+
+    <Button
+        android:id="@+id/btn_diaProcess"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="读取中Dialog" />
+
+    <Button
+        android:id="@+id/btn_diaCustom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义Dialog" />
+
+    <Button
+        android:id="@+id/btn_popUpDia"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="PopUpWindow实现的dialog" />
+
+</LinearLayout>
