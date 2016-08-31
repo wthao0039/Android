@@ -21,11 +21,13 @@ public class MainActivity extends Activity implements OnClickListener{
 	private void findView() {
 		b1 = (Button) findViewById(R.id.button1);
 		b2 = (Button) findViewById(R.id.button2);
+		b3 = (Button) findViewById(R.id.button3);
 	}
 
 	private void Listener(){
 		b1.setOnClickListener(this);
 		b2.setOnClickListener(this);
+		b3.setOnClickListener(this);
 	}
 
 	@Override
@@ -41,6 +43,10 @@ public class MainActivity extends Activity implements OnClickListener{
 			//自定义开关
 		case R.id.button2:
 			intent = new Intent(this,SwitchButtonActivity.class);
+			startActivity(intent);
+			break;
+		case R.id.button3:
+			intent = new Intent(this,ListsActivity.class);
 			startActivity(intent);
 			break;
 			
