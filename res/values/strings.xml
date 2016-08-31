@@ -4,5 +4,6 @@
     <string name="app_name">Android_wthao</string>
     <string name="hello_world">Hello world!</string>
     <string name="button1">跟随手指滑动的小球</string>
+    <string name="button2">开关</string>
 
 </resources>

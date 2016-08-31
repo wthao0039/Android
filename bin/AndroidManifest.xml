@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android_wthao.activity"
+<manifest package="com.android_wthao.activity"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0" xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -12,7 +11,7 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" >
@@ -23,6 +22,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".CustomViewActivity" >
+        </activity>
+        <activity android:name="com.android_wthao.activity.SwitchButtonActivity" >
         </activity>
     </application>
 

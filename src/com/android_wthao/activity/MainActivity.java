@@ -10,20 +10,22 @@ import android.widget.Button;
 public class MainActivity extends Activity implements OnClickListener{
 	private Button b1,b2,b3,b4,b5;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        findView();
-        Listener();
-    }
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		findView();
+		Listener();
+	}
 
 	private void findView() {
 		b1 = (Button) findViewById(R.id.button1);
+		b2 = (Button) findViewById(R.id.button2);
 	}
-	
+
 	private void Listener(){
 		b1.setOnClickListener(this);
+		b2.setOnClickListener(this);
 	}
 
 	@Override
@@ -36,7 +38,11 @@ public class MainActivity extends Activity implements OnClickListener{
 			intent = new Intent(this,CustomViewActivity.class);
 			startActivity(intent);
 			break;
-
+			//自定义开关
+		case R.id.button2:
+			intent = new Intent(this,SwitchButtonActivity.class);
+			startActivity(intent);
+			break;
 		default:
 			break;
 		}
